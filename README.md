@@ -1,2 +1,2 @@
 # amadnan.github.io
-amadnan.me
+[amadnan.me](https://amadnan.me/)
