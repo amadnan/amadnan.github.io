@@ -163,6 +163,41 @@ footer a:hover {
     color: #ffffff;
 }
 
+/* Flexbox Layout */
+.profile-container {
+    display: flex;
+    justify-content: space-between; /* Ensures space between sections */
+    align-items: flex-start; /* Aligns both sections at the top */
+    padding: 20px;
+}
+
+/* Left Profile Section */
+.profile-section {
+    flex: 1; /* Allows the profile section to take up more space */
+    padding-right: 20px; /* Adds space between profile and image sections */
+}
+
+/* Right Image Section */
+.image-section {
+    flex: 0.5; /* Image section takes up less space */
+    display: flex;
+    flex-direction: column; /* Ensures images are stacked vertically */
+    align-items: center; /* Centers the images */
+}
+
+.image-section img {
+    width: 150px; /* Adjusts the image size */
+    height: 150px;
+    margin-bottom: 10px; /* Adds space between the images */
+}
+
+/* Divider Styling */
+.divider {
+    height: 2px;
+    background-color: #e94560;
+    margin: 10px 0; /* Adds space around the line */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
